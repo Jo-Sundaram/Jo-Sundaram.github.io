@@ -1,0 +1,70 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="static/css/style.css"/>
+        
+        <title>Javascript Challenges</title>
+    </head>
+
+    <body>
+        <!--Challenge 1 Age in Days-->
+        <div class = "container-1">
+            <h2> Challenge 1: Your Age in Days</h2>
+            <div class = "flex-box-container-1">
+                    <div>
+
+                        <button class = "btn btn-primary" onclick="ageInDays()"> Click me </button>
+
+                    </div>
+                    <div>
+
+                        <button class = "btn btn-danger" onclick="reset()"> Reset</button>
+
+                    </div>
+            </div>
+            <div class = "flex-box-container-1">
+                <div id="flex-box-result"></div>
+            </div>
+        </div>
+
+        <!--Challenge 2 Cat Generator-->
+
+        <div class="container-2">
+            <h2>Challenge 2: Cat Generator</h2>
+              <button class="btn btn-success" id="cat-generator" onclick="generateCat()"> Generate Cat</button>
+              <button class="btn btn-danger" id="reset" onclick="resetCat()">Remove Cat</button>
+
+            <div class="flex-box-container-2" id = "flex-cat-gen">
+
+            </div>
+
+        </div>
+
+
+
+        <!-- Challenge 3 Rock Paper Scissors-->
+
+        <div class = "container-3">
+            <h2>Challenge 3: Rock Paper Scissors</h2>
+            <div class = "flex-box-rps" id = "flex-box-rps-div">
+
+                <!-- Images found online -->
+                <img id = "rock" src="https://webstockreview.net/images/clipart-rock-sedimentary-rock-19.png" height = 150, width = 150 onclick="rpsGame(this.id)">  
+                <img id = "paper" src="https://webstockreview.net/images/clipart-paper-messy-11.png" height = 150 ,width = 150 onclick="rpsGame(this.id)">
+                <img id = "scissors" src="https://i.pinimg.com/originals/23/6b/24/236b24209a5856d9d14d222a52d97995.png" height = 150 ,width = 150 onclick="rpsGame(this.id)">
+
+
+            </div class = "flex-box-rps" id = "reset">
+                 <button class="btn btn-danger" id="resetbtn" onclick="reset()">Reset</button>
+            <div>
+
+
+            </div>
+
+        </div>
+            <script src = "static/js/challenges.js"></script>
+    </body>
+
+</html>
