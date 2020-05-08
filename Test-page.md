@@ -1,5 +1,5 @@
 ---
-title: Test Page
+title: home
 ---
 <html lang="en">
 <head>
