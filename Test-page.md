@@ -11,6 +11,14 @@ title: home
 </head>
 <body>
     <div class="container-2">
+
+        <header class = "inner">
+            <h1 id = "page title"> title </h1>
+
+
+        </header>
+
+
         <h2>Cat Generator</h2>
           <button class="btn btn-success" id="cat-generator" onclick="generateCat()"> Generate Cat</button>
           <button class="btn btn-danger" id="reset" onclick="resetCat()">Remove Cat</button>
