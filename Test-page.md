@@ -1,5 +1,5 @@
 ---
-title: Test Page
+name: Test Page
 ---
 <html lang="en">
 <head>
