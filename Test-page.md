@@ -21,7 +21,7 @@ layout: default
 
     </div>
 
-    <a href="url">./another-page.html</a>
+    <a href="url">another-page.html</a>
 
     <script src = javascript.js></script>
 </body>
