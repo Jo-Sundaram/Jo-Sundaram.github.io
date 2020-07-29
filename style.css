@@ -103,15 +103,23 @@ a{
     font-size: 30px;
 }
 
+#about-me-div{
+    background-color: rgb(228, 245, 252);
+
+}
+
 #about-body{  
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     line-height: 35px;
-    background-color: rgb(228, 245, 252);
+    /* background-color: rgb(228, 245, 252); */
+    padding-left: 100px;
+    padding-right: 200px;
 }
 
 #about-me{
     color: #e63946;
+    padding-left: 100px;
 }
 
 #profile{
@@ -120,6 +128,8 @@ a{
     width: 200px;
     height: 200px;
     /* border-radius: 50%; */
+    align-self: right;
+
 }
 
 
